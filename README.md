@@ -1,7 +1,5 @@
-# Testing_Place
+# Practice
 
-Some Description
+Repository for programming practice.
 
 ## Subheader
-
-Test
