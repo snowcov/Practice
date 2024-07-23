@@ -44,8 +44,8 @@ console.log(allConstruct("aaaaaaaaaaaaaaaaaaaaaaaaaaz", [
 //=================================================================================
 
 //Memoization
-//Time Complexity: O(n * m^2)
-//Space Complexity: O(m^2)
+//Time Complexity: O(n^m)
+//Space Complexity: O(m)
 
 const allConstruct2 = (target, wordBank, memo={}) => {
     if(target in memo) return memo[target];
